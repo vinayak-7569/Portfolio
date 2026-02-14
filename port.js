@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const navMenu = document.querySelector("nav");
 
     menuToggle.addEventListener("change", () => {
-        if (menuToggle.checked) {
+        if (menuToggle.checked) {v 
             navMenu.style.left = "0%";
         } else {
             navMenu.style.left = "-100%";
